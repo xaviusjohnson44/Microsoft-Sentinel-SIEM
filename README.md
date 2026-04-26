@@ -17,7 +17,7 @@ The SIEM Lab project aimed to create an Azure lab environment and simulate using
 - Microsoft Azure for setting up the lab environment
 - GitHub for accessing documentation about Microsoft Sentinel and the training.
 
-## Steps
+## Steps for Case 1:
 
 ### Checking the Incidents Page
 <img width="583" height="272" alt="Investigatrions" src="https://github.com/user-attachments/assets/0eb44841-6aa9-48b8-81f7-eadcb2d1f7ac" />
@@ -47,3 +47,21 @@ The SIEM Lab project aimed to create an Azure lab environment and simulate using
 ### Closing the ALert
 <img width="295" height="371" alt="ClosingAlert" src="https://github.com/user-attachments/assets/ae8601dd-a48b-46d8-bcf5-60fa023de805" />
 *Ref 7: Lastly, I close out the alert. I ensure notes are left for future reference.*
+
+
+## Steps for Case 2:
+
+### Investigating Solorigate Incident
+<img width="540" height="422" alt="SolorigateInfo" src="https://github.com/user-attachments/assets/9825a0fa-96f4-4d22-8d34-115717cde431" />
+*Ref 1: In this case, we start out by taking a look at the details page of the Solrigate Network Beacon. From the description, I can see that this relates to the SolarWinds supply chain attack and involves malware sending a C2 beacon.*
+
+### Log Investigation
+<img width="682" height="427" alt="LogAnalysis" src="https://github.com/user-attachments/assets/81388b9f-435c-431c-91d2-67e7b398089d" />
+*Ref 2: In this image, I see that Cisco Umbrella DNS has flagged but allowed this DNS request to a known Solrigate C2 domain*
+
+### Conducting a SolarWinds inventory
+<img width="561" height="322" alt="HuntingtheSunWind" src="https://github.com/user-attachments/assets/6553c5bc-54d3-4054-b797-04f2b9dd8e81" />
+*Ref 3: With the help of guidance from Microsoft, I run a query in the hunting tab of Sentinel to locate endpoints with SolarWinds.*
+
+
+
