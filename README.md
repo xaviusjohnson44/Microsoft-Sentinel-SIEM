@@ -6,9 +6,12 @@ The SIEM Lab project aimed to create an Azure lab environment and simulate using
 
 ### Skills Learned
 
-- Advanced understanding of Microsoft Sentinel SIEM concepts and practical application.
-- Proficiency in using Microsoft Sentinel for analyzing and interpreting network logs.
-- Enhanced knowledge of cloud security vulnerabilities.
+- Solid understanding of Microsoft Sentinel SIEM concepts and practical application
+- Proficiency in using Microsoft Sentinel for analyzing and interpreting network logs
+- Enhanced knowledge of cloud security vulnerabilities
+- Automating actions in Microsoft Sentinel
+- Threat hunting in Sentinel
+- Adding discovered IoCs and threat intelligence to the Sentinel workspace Threat Intelligence store
 
 ### Tools Used
 
